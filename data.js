@@ -1,5 +1,5 @@
 // data.js
-[
+const placesArray = [
     //Main Entrance
     { name: 'CRC Office', coordinates: [6.883372107318636, 79.88659121489017],description:'' },
     { name: 'Department of Health Sciences', coordinates: [6.883521897279724, 79.88633399162427], description:'' },
@@ -78,5 +78,9 @@
     { name: 'Computer Science Lab', coordinates: [6.883792452234939, 79.88501654380495], description:'' },
     // ... other places
   ]
+
+const jsonString = JSON.stringify(placesArray);
+
+export default jsonString;
 
   
